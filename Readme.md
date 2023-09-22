@@ -1,8 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Евгений Землянкин](https://up.htmlacademy.ru/htmlcss/38/user/2412927).
- Наставник: [Александр Зиновьев] (https://htmlacademy.ru/profile/id198751)
- .
+ Студент: [Евгений Землянкин](https://up.htmlacademy.ru/htmlcss/38/user/2412927).
+ Наставник: [Александр Зиновьев](https://htmlacademy.ru/profile/id198751).
 
 ---
 
