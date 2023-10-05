@@ -1,3 +1,5 @@
+/*Шрифты*/
+
 @font-face {
 font-family: "PT Sans";
 font-style: normal;
@@ -7,9 +9,174 @@ font-display: swap;
 }
 
 @font-face {
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 700;
-    src: url("../fonts/ptsans-700.woff2") format("woff2");
-    font-display: swap;
-    }
+font-family: "PT Sans";
+font-style: normal;
+font-weight: 700;
+src: url("../fonts/ptsans-700.woff2") format("woff2");
+font-display: swap;
+}
+
+body {
+font-family: "PT Sans", sans-serif;
+font-size: 24px;
+line-height: 26px;
+color: #000000;
+background-color:antiquewhite;
+width: 1280px;
+}
+.page-header {
+color: #000000;
+background: #ffffff;
+}
+
+/*header*/
+
+.main-nav-link {
+font-family: "PT Sans", sans-serif;
+line-height: 24px;
+color: #000000;
+background-color: #ffffff;
+font-weight: 700;
+text-align: center;
+text-transform: capitalize;
+text-decoration: none;
+
+}
+.user-nav-link {
+font-family: "PT Sans", sans-serif;
+line-height: 24px;
+color: #000000;
+background-color: #ffffff;
+font-weight: 700;
+text-align: center;
+text-transform: capitalize;
+text-decoration: none;
+}
+
+/*main*/
+
+.page-main {
+color: #000000;
+background-color: #ffffff;
+}
+
+/*index-hero*/
+
+.index-hero {
+background-image: url("../images/index-background.jpg"), url("../images/vector.svg");
+background-repeat: no-repeat;
+background-size: cover, contain;
+background-position: center bottom;
+width: 1200px;
+height: 485px;
+background-color: #000000;
+}
+
+/*hero-tittle*/
+
+.hero-tittle {
+display: flex;
+width: 1200px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 25px;
+padding: 69px 0;
+
+}
+.hero-adventages-description {
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+text-align: center;
+}
+.adventages-description {
+font-size: 22px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+}
+
+/*adventages*/
+
+.adventages-tittle-big {
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+text-align: center;
+color: #ffffff;
+background-color: #82B3D3;
+}
+.advantages-item-description-big {
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+color: #ffffff;
+background-color: #82B3D3;
+}
+.adventages-tittle {
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+text-align: center;
+}
+.advantages-item-description {
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+}
+
+/*invitation*/
+
+.invitation-tittle {
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+text-align: center;
+}
+.invitation-description {
+font-size: 22px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+}
+.reccomend-list h3 {
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+text-transform: uppercase;
+text-align: center;
+}
+.reccomend-list p {
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+}
+.reccomend-item-home {
+background-image: url("../images/home.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-color: #83B3D31F;
+}
+.reccomend-item-food {
+background-image: url("../images/food.svg");
+background-repeat: no-repeat;
+background-position: center;
+}
+.reccomend-item-souvenirs {
+background-image: url("../images/present.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-color: #83B3D31F;
+}
+.reccomend-list .reccomend-item {
+width: 400px;
+height: 385px;
+}
+
+/*hotel-search*/
