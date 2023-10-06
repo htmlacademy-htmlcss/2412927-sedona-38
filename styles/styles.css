@@ -22,7 +22,7 @@ font-size: 24px;
 line-height: 26px;
 color: #000000;
 background-color:antiquewhite;
-width: 1280px;
+
 }
 .page-header {
 color: #000000;
@@ -31,8 +31,13 @@ background: #ffffff;
 
 /*header*/
 
+.logo-image {
+width: 140px;
+height: 70px;
+}
 .main-nav-link {
 font-family: "PT Sans", sans-serif;
+font-size: 20px;
 line-height: 24px;
 color: #000000;
 background-color: #ffffff;
@@ -40,10 +45,12 @@ font-weight: 700;
 text-align: center;
 text-transform: capitalize;
 text-decoration: none;
+font-style: normal;
 
 }
 .user-nav-link {
 font-family: "PT Sans", sans-serif;
+font-size: 20px;
 line-height: 24px;
 color: #000000;
 background-color: #ffffff;
@@ -98,13 +105,12 @@ line-height: 26px;
 text-align: center;
 }
 
-/*adventages*/
+/*Преимущества*/
 
 .adventages-tittle-big {
 font-size: 24px;
 font-weight: 700;
 line-height: 28px;
-text-align: center;
 color: #ffffff;
 background-color: #82B3D3;
 }
@@ -112,7 +118,6 @@ background-color: #82B3D3;
 font-size: 18px;
 font-weight: 400;
 line-height: 21px;
-text-align: center;
 color: #ffffff;
 background-color: #82B3D3;
 }
@@ -120,30 +125,30 @@ background-color: #82B3D3;
 font-size: 24px;
 font-weight: 700;
 line-height: 28px;
-text-align: center;
 }
 .advantages-item-description {
 font-size: 18px;
 font-weight: 400;
 line-height: 21px;
-text-align: center;
 }
 
-/*invitation*/
+/*Приглашение на отдых*/
 
 .invitation-tittle {
 font-size: 30px;
 font-weight: 700;
 line-height: 36px;
 text-transform: uppercase;
-text-align: center;
 }
 .invitation-description {
 font-size: 22px;
 font-weight: 400;
 line-height: 26px;
-text-align: center;
 }
+
+/*Рекомендации*/
+
+
 .reccomend-list h3 {
 font-size: 24px;
 font-weight: 700;
@@ -180,3 +185,76 @@ height: 385px;
 }
 
 /*hotel-search*/
+
+.hotel-search-title {
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+}
+.hotel-search-description {
+font-size: 22px;
+font-weight: 400;
+line-height: 26px;
+}
+.hotel-search-button {
+font-size: 20px;
+font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+/*newsletter*/
+
+.page-footer {
+color: #000000;
+background-color: #ffffff;
+}
+
+.newsletter-title {
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+}
+.newsletter-description {
+font-size: 22px;
+font-weight: 400;
+line-height: 26px;
+}
+.newsletter-field {
+text-align: none;
+width: 452px;
+height: 52px;
+}
+.newsletter-button {
+color: #ffffff;
+background-color: #82B3D3;
+width: 232px;
+height: 52px;
+font-size: 20px;
+font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+text-align: center;
+}
+.social-link {
+font-family: "PT Sans", sans-serif;
+line-height: 24px;
+color: #000000;
+background-color: #ffffff;
+font-weight: 700;
+text-align: center;
+text-transform: capitalize;
+text-decoration: none;
+}
+.phone-link {
+color: #000000;
+font-family: "PT Sans", sans-serif;
+font-size: 40px;
+font-weight: 400;
+line-height: 40px;
+text-transform: uppercase;
+text-decoration: none;
+}
