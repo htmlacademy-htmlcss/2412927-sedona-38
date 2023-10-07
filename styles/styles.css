@@ -184,7 +184,7 @@ width: 400px;
 height: 385px;
 }
 
-/*hotel-search*/
+/*Поиск отеля*/
 
 .hotel-search-title {
 font-size: 30px;
@@ -205,7 +205,7 @@ text-transform: uppercase;
 text-decoration: none;
 }
 
-/*newsletter*/
+/*Рассылка*/
 
 .page-footer {
 color: #000000;
@@ -258,3 +258,184 @@ line-height: 40px;
 text-transform: uppercase;
 text-decoration: none;
 }
+
+
+/*CATALOG*/
+
+/*ФИЛЬТРЫ*/
+
+.filters-content {
+background-image: url("../images/catalog-background.jpg");
+background-repeat: no-repeat;
+background-size: cover, contain;
+background-position: center bottom;
+width: 1200px;
+color: #ffffff;
+background-color: #000000;
+}
+.filters-header-title {
+font-size: 60px;
+font-weight: 700;
+line-height: 78px;
+}
+.breadcrumbs-link {
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+text-decoration: none;;
+color: #ffffff;
+}
+.catalog-filter-title {
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-transform: capitalize;
+}
+.catalog-filter-list .control-input {
+font-size: 18px;
+font-weight: 400;
+line-height: 23px;
+font-style: normal;
+}
+.min-price {
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+text-align: right;
+}
+.max-price {
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+text-align: right;
+}
+.button-transparent {
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+text-transform: uppercase;
+color: #ffffff;
+border: 0;
+background-color: rgba(28,28,28,0);
+}
+.button-transparent-blue {
+background-color: #82B3D3;
+border-radius: 4px;
+}
+
+/*КАТАЛОГ*/
+
+.catalog-body {
+background-color: #ffffff;
+color: #000000;
+}
+.catalog {
+color: #000000;
+background-color: #ffffff;
+}
+.catalog-results-tittle {
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+}
+.select-control {
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+}
+.searching-results-list a {
+text-decoration: none;
+color: #000000;
+}
+.button-sort {
+background-color: #ffffff;
+}
+.button-sort-tile {
+background-image: url("../images/icon-tile.svg");
+width: 48px;
+height: 48px;
+background-repeat: no-repeat;
+}
+.button-sort-card {
+background-image: url("../images/icon-card.svg");
+width: 48px;
+height: 48px;
+background-repeat: no-repeat;
+}
+.button-sort-list {
+background-image: url("../images/icon-list.svg");
+width: 48px;
+height: 48px;
+background-repeat: no-repeat;
+}
+
+/*СПИСОК ГОСТИНИЦ*/
+
+.product-card-link {
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+text-decoration: none;
+color: #000000;
+}
+.product-card-hotel {
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+}
+.product-card-price {
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+}
+.product-card-button {
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+text-decoration: none;
+color: #ffffff;
+background-color: #756157;
+border: 0;
+border-radius: 4px;
+text-transform: uppercase;
+}
+.product-rating-number {
+display: block;
+width: 140px;
+height: 36px;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-transform: uppercase;
+background-color: #F2F2F2;
+}
+
+/*ПАГИНАЦИЯ*/
+
+.pagination-link {
+font-size: 20px;
+font-weight: 700;
+ line-height: 36px;
+ text-transform: uppercase;
+ text-decoration: none;
+ color: #ffffff;
+ background-color: #82B3D3;
+}
+.pagination-current {
+font-size: 20px;
+font-weight: 700;
+ line-height: 36px;
+color: #000000;
+background-color: #F2F2F2;
+}
+.pagination-more {
+font-size: 20px;
+font-weight: 700;
+ line-height: 36px;
+color: #000000;
+background-color: #ffffff;
+}
+
+/*ФУТЕР*/
